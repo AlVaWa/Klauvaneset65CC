@@ -5,5 +5,6 @@ Playing around with CC sender/reciever to learn ;)
 Im using firebase to do a simple deploy. Thats why I use the public-folder sturcture.
 
 ## Run
-You need to register the reciever on [cast admin in Google](cast.google.com) and update application ID in sender.js to run this successfully.
+You need to register the reciever on [cast admin in Google](https://cast.google.com) and update application ID in sender.js to run this successfully.
 
+''
