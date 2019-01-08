@@ -1,0 +1,23 @@
+body {
+  background-color: #eaeaea;
+}
+
+.google-cast-launcher {
+  height: 100px;
+  width: 100px;
+
+}
+
+.play-button {
+  height: 100px;
+  width: 100px;
+  color: #696969;
+
+}
+
+.volume-button {
+  height: 30px;
+  width: 30px;
+  color: #696969;
+
+}

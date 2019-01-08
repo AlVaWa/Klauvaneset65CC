@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="sender.css" media="screen" />
+    <script src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+    <title>Klauvaneset 65 - Sender</title>
+</head>
+<body>
+
+    <div class="google-cast-launcher">
+        <google-cast-launcher></google-cast-launcher>
+    </div>
+
+    <div class="google-cast-controller">
+        <button class="play-button" onclick="playWithFire()">Play with Fire</button>
+        <button class="play-button" onclick="playOrPause()">Play/Pause</button>
+        <button class="play-button" onclick="stop()">Stop</button>
+    </div>
+
+    <div class="google-cast-volume-controller">
+        <button class="volume-button" onclick="changeVolume(0.0)">0%</button>
+        <button class="volume-button" onclick="changeVolume(0.2)">20%</button>
+        <button class="volume-button" onclick="changeVolume(0.4)">40%</button>
+        <button class="volume-button" onclick="changeVolume(0.6)">60%</button>
+        <button class="volume-button" onclick="changeVolume(0.8)">80%</button>
+        <button class="volume-button" onclick="changeVolume(1.0)">100%</button>
+    </div>
+
+</body>
+<footer>
+    <script src="sender.js"></script>
+</footer>
+</html>

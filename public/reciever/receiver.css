@@ -1,0 +1,10 @@
+body {
+  --playback-logo-image: url('Klauvaneset65Logo.png');
+}
+cast-media-player {
+  --theme-hue: 100;
+  --progress-color: rgb(0, 255, 0);
+  --splash-image: url('Klauvaneset65Logo.png');
+  --splash-size: cover;
+  --watermark-image: url('Klauvaneset65WM.png')
+}
